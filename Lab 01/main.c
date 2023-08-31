@@ -6,7 +6,7 @@ int main() {
     int i, len;
 
     printf("Enter a string: ");
-    gets(str);
+    fgets(str, 100, stdin);
 
     len = strlen(str);
 
